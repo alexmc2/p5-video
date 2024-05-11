@@ -16,7 +16,6 @@ let numOfScreensTall = 4;
 let numOfScreensWide = 4;
 
 let counter = 1;
-let videosStarted = false; // Add this variable to track video playback state
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
