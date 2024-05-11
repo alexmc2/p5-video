@@ -16,6 +16,7 @@ let numOfScreensTall = 4;
 let numOfScreensWide = 4;
 
 let counter = 1;
+let videosStarted = false; // Add this variable to track video playback state
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -50,7 +51,7 @@ function setup() {
         (i === 2 && j === 1) ||
         (i === 2 && j === 2)
       ) {
-        outsideVideos[i].push(null); // Don't assign a video to the inner grid screens
+        outsideVideos[i].push(null); 
       } else {
         let randomIndex = floor(random(videos.length));
         outsideVideos[i].push(videos[randomIndex]);
