@@ -3,7 +3,7 @@ let earthPath =
 let starsPath =
   'https://res.cloudinary.com/drbz4rq7y/video/upload/v1713721033/1118735_4k_Numbers_Networking_1920x1080_scs7hg.mp4';
 let staticPath =
-  'https://res.cloudinary.com/drbz4rq7y/video/upload/v1713720666/Problem_Monitor_1920x1080_lyqvqa.mp4';
+  'https://res.cloudinary.com/drbz4rq7y/video/upload/v1727863244/1118637_4k_Pattern_1920x1080_lz1dcp.mp4';
 let humanPath =
   'https://res.cloudinary.com/drbz4rq7y/video/upload/v1713720681/Think_Shiny_1920x1080_qrfzjn.mp4';
 
